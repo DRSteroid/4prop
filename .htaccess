@@ -1,0 +1,17 @@
+RewriteOptions inherit
+DirectoryIndex index.php index.html
+AddDefaultCharset utf-8
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|design|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+RewriteCond %{HTTP_USER_AGENT} ^.*(Baiduspider|HTTrack|Yandex).*$ [NC]
+RewriteRule .* - [F,L]
+

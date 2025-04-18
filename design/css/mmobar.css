@@ -1,0 +1,409 @@
+/** TOP PANEL **/
+a {
+	color:#400D02 
+}	
+
+#game_bar  {
+/*z-index: 3000;*/
+top: 0px;
+text-align: center;
+padding: 0px;
+left: 0px;
+height: 40px;
+font: 11px Tahoma,Arial,Helvetica,sans-serif;
+width: 100%;
+position: absolute;
+background: #000 none repeat scroll 0px center;
+box-shadow: 0px -50px 141px -132px #F00 inset;
+}
+
+#game_bar #gameContent {
+	height: 32px;
+	width: 900px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#game_bar #facebook {
+position: relative;
+float: left;
+margin-left: -250px;
+}
+
+#game_bar #logo {
+background: transparent url("../img/mmobar/yg_logo.png") no-repeat scroll left top;
+height: 30px;
+width: 115px;
+display: block;
+float: left;
+margin: 5px 150px;
+}
+
+#game_bar iframe {
+	position: absolute;
+	top: 10px;
+	left: 290px;
+}
+
+#game_bar  div.panel_news{
+	border-radius: 7px;
+	border: 1px solid #56534A;
+	position: absolute;
+	left: 300px;
+	height: 27px;
+	top: 4px;
+	box-shadow: 3px 3px 5px #111;
+	background-color: rgba(80, 80, 80, 0.2);
+	width: 250px;
+}
+
+#game_bar div.panel_news a{
+	overflow: hidden;
+	width: 95%;
+	height: 70%;
+	top: 18.30%;
+	left: 3%;
+	font-size:90%;
+	color:#F1C75C;
+	position: absolute;
+}
+
+#game_bar  div.button {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #661300;
+	transition: color 0.5s ease-in 0s;
+	border-color: #E7B41A;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 4px;
+	background-clip: padding-box;
+	background-image: linear-gradient(to bottom, #FCDD80 0%, #C69609 100%);
+	width: 120px;
+	float: left;
+	cursor: pointer;
+	margin: 3px 0 0 170px;
+}
+
+#game_bar  div.button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #F6E3A6 0%, #FFBA1D 100%);
+    text-decoration: none;
+}
+
+#game_bar  div.button  a{
+	font-size: 12px;
+}
+
+#trailer_fancy {
+	background:#F1C75C no-repeat;
+	width:674px;
+	height:672px;
+	border-radius: 7px;
+	border: 1px solid #56534A;
+}
+
+#trailer_fancy  div.list{
+height: 130px;
+margin: 20px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** TOP PANEL **/
+#top_panel  {
+    top:-3;
+	z-index:999;
+	font-size:90%;
+	color:#FFD7B0;	
+	background: url('images/top_panel_bg.jpg') repeat-x;
+	height: 40px;
+	position: absolute;
+	width: 100%;
+}
+
+#top_panel  img.yg_logo {
+	left: 184px;
+	width: 100px;
+	height: 45px;
+	position: absolute;
+	top: -2px;
+}
+
+#top_panel iframe {
+	position: absolute;
+	top: 10px;
+	left: 290px;
+}
+
+#top_panel  div.panel_news{
+	border-radius: 7px;
+	border: 1px solid #56534A;
+	position: absolute;
+	left: 450px;
+	height: 27px;
+	top: 4px;
+	box-shadow: 3px 3px 5px #111;
+	background-color: rgba(80, 80, 80, 0.2);
+	width: 250px;
+}
+
+#top_panel div.panel_news a{
+	overflow: hidden;
+	width: 95%;
+	height: 70%;
+	top: 18.30%;
+	left: 3%;
+	font-size:90%;
+	color:#fff;
+	position: absolute;
+}
+
+#top_panel  a span {
+	margin-top:20% 20% 20% 20% ;
+	top: 0px;
+	left: 124%;
+	width: 8%;
+	height: 50%;
+	position: absolute;
+}
+
+#top_panel  div.lang  {
+	margin-top:20% 20% 20% 20% ;
+	top: 0px;
+	left: 160%;
+	width: 20%;
+	height: 50%;
+	position: absolute;
+}
+
+#top_panel  div.lang  a{
+	margin-top:20% 20% 20% 20% ;
+	top: 0px;
+	left: 124%;
+	width: 8%;
+	height: 50%;
+
+}
+
+#top_panel  div.button {
+    background: url("images/button.png") no-repeat scroll right top transparent;
+    width: 174px;
+    height: 45px;
+    font-family: Copperplate,Copperplate Gothic Light;
+    color: #7A3F08;
+    position: relative;
+    cursor: pointer;
+    left: 190px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#top_panel  div.button  a{
+	color: rgb(69, 35, 5);
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#top_panel  div.button:hover{
+	background: url("images/button.png") no-repeat scroll right -44px transparent;
+}
+
+#trailer_fancy {
+	background:#fff repeat-y;
+	width:674px;
+	min-height:680px;
+	border-radius: 7px;
+	border: 1px solid #56534A;
+}
+
+
+#trailer_fancy  div.list{
+height: 130px;
+margin: 20px 0px 0px 0px;
+}
+
+/* Window */
+
+#mmowindow .game_card{
+display:inline-block;
+left:6px;
+margin:10px 13px  0 0 ;
+padding:0;
+width:207px;
+height:110px;
+overflow:hidden;
+position:relative;
+border-radius:4px;
+background-clip:padding-box;
+box-shadow:0 5px 3px rgba(0,0,0,.2), inset 0 0 7px 3px rgba(0,0,0,.5)
+}
+
+#mmowindow .game_card_new{
+display:inline-block;
+left:6px;
+margin:10px 13px 0 0;
+padding:0;
+width:648px;
+height:160px;
+overflow:hidden;
+position:relative;
+border-radius:4px;
+background-clip:padding-box;
+box-shadow:0 5px 3px rgba(0,0,0,.2), inset 0 0 7px 3px rgba(0,0,0,.5)
+}
+
+#mmowindow .image-wrap{
+width:210px;
+height:110px;
+}
+#mmowindow .image-wrap_new{
+width:648px;
+height:160px;
+}
+
+#mmowindow .game_card_fb_bg{
+position:absolute;
+right:125px;
+bottom:5px;
+z-index:3;
+background-color:rgba(0, 0, 0, 0.15);
+padding:5px 5px;
+border-radius:5px;
+background-clip:padding-box;
+}
+
+
+#mmowindow .game_card_play_bg{
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	z-index: 3;
+	background-color: rgba(0, 0, 0, 0.15);
+	padding: 5px 5px;
+	border-radius: 5px;
+	background-clip: padding-box;
+ }
+
+#mmowindow .test{
+font-weight: bold;
+line-height: 18px;
+border-color: #6E0202 #6E0202 #6E0202;
+border-style: solid;
+border-width: 1px;
+position: relative;
+border-radius: 4px;
+background-clip: padding-box;
+background-color: #B39628;
+background-image: linear-gradient(to bottom, #6E0202 0%,#510000 100%);
+padding: 5px 12px 5px;
+display: block;
+color: #f5f5f5;
+font-size: 10px
+}
+
+#mmowindow .button_calltoaction_fb{
+	font-weight: bold;
+	line-height: 18px;
+	transition: color .5s ease-in;
+	border-color: #5a7fc8 #5a7fc8 #5a7fc8;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	border-radius: 4px;
+	background-clip: padding-box;
+	background-image: linear-gradient(to bottom, #5a7fc8 0%,#2a4988 100%);
+	padding: 5px 12px 5px;
+	display: block;
+	color: #f5f5f5;
+	font-size: 10px;
+	left: 7px;
+}
+#mmowindow .test:hover{
+box-shadow:0 0 15px #ce3d3d
+}
+
+#mmowindow .button_calltoaction_fb:hover{
+box-shadow:0 0 15px #658fe5
+}
+
+/*lang select*/
+#header-lang {
+    position: relative;
+	float: left;
+	left: 80px;
+	/*top: 5px;*/
+}
+
+#header-lang .selected {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+	margin-top: 10px;
+}
+#header-lang .selected span {
+	visibility: hidden;
+}
+#header-lang  p{
+	float: left;
+}
+#header-lang .selected .icon-base.minus {
+    display: none;
+}
+#header-lang ul.drop {
+    opacity: 0;
+}
+#header-lang:hover > ul.drop {
+	height: auto;
+	opacity: 1;
+	overflow: visible;
+	z-index: 999999999999999999;
+	position: relative;
+}
+#header-lang ul.drop li {
+    list-style-type: none;
+    display: block;
+}
+.langSelect {
+    display: block;
+}
+#header-lang ul.drop a {
+	display: block;
+	padding: 1em 2em 1em 4em;
+	white-space: nowrap;
+	text-decoration: none;
+	color: #FFF0D2;
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: 30px center;
+}
+#header-lang ul.drop a:hover {
+    text-decoration: none;
+    background-color: #5F1404;
+}
+

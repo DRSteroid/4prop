@@ -1,0 +1,211 @@
+.ref_box{
+	text-align: center;
+	font-family: Courier New;
+	font-size: 20px;
+	background-color: #691705;
+	color: #ffffff;
+	margin: 0px 45px 20px 50px;
+	height: 50px;
+	width: 550px;
+	
+}
+.ref_box a{
+	color: white;
+	font-size: 15px;
+}
+
+
+/* Signature css */
+.signatur {
+	width: 560px;
+	margin: auto;
+}
+.char_select {
+	float: left;
+}
+.style_select {
+	float: right;
+}
+span.blocknewtabon {
+    z-index: 100;
+    position: relative;
+    bottom: -1px;
+    display: inline-block;
+    border-radius: 7px 7px 0px 0px;
+    padding: 4px 8px;
+    border-width: 1px;
+    border-style: solid;
+}
+span.blocknewtabon {
+    border-bottom-color: transparent;
+}
+span.blocknewtabon, span.blocknewtaboff, div.block {
+    border-color: #343434;
+    background-color: #1a1a1a;
+}
+span.blocknewtaboff {
+    z-index: 100;
+    position: relative;
+    bottom: -1px;
+    display: inline-block;
+    border-radius: 7px 7px 0px 0px;
+    padding: 4px 8px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+span.blocknewtaboff {
+    color: #FF9900;
+}
+span.blocknewtabon, span.blocknewtaboff, div.block {
+	border-color: #7A0808;
+	background-color: #691705;
+}
+div.block {
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    background-repeat: repeat-x;
+    background-position: 0px -1px;
+    width: 540px;
+    padding: 9px;
+}
+
+.signatur textarea.textarea_500x60 {
+    width: 530px;
+    height: 76px;
+	border-color: #960707;
+	background-color: #4A1307;
+	color: #f0f0f0;
+}
+
+.bem_box textarea.textarea_500x60 {
+    width: 530px;
+    height: 200px;
+}
+.bem_box {
+	padding: 20px;
+}
+.bem_box textarea {
+    margin: 1px;
+    padding: 2px 3px 2px 3px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 12px;
+}
+.signatur textarea {
+    margin: 1px;
+    padding: 2px 3px 2px 3px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 12px;
+}
+select  {
+background: rgb(140, 19, 19) none repeat scroll 0% 0%;
+border: 1px solid rgb(171, 22, 22);
+color: rgb(251, 216, 128);
+}
+.bem_box textarea , .ref_box textarea{
+	border-color: #960707;
+	background-color: #4A1307;
+	color: #f0f0f0;
+}
+.signatur textarea {
+	border-color: #960707;
+	background-color: #4A1307;
+}
+
+.ref_box textarea{
+	background: none;
+	width: 100%;
+	resize: none;
+	border: none;
+	text-align: center;
+}
+/*User page*/
+.newsList .content {
+    font-size: 16px;
+    line-height: 20px;
+    word-wrap: break-word;
+    margin: 30px;
+}
+.user-info {
+    overflow: hidden;
+}
+.user-info .char_list a {
+    color: #D5AB5B;
+}
+.user-info li {
+    font-size: 15px;
+}
+.user-info fieldset legend {
+    margin: 5px;
+    font-size: 25px;
+    color: rgb(251, 216, 128);
+}
+.user-info fieldset {
+    border: 5px solid #C39C53;
+    border-radius: 5px;
+    width: 279px;
+    margin: 18px;
+    float: left;
+}
+.user-info fieldset li a{
+color: rgb(195, 156, 83);
+float: right;
+font-size: 16px;
+}
+.char-info fieldset {
+    border: 5px solid #C39C53;
+    border-radius: 5px;
+    width: 650px;
+    margin: 20px;
+    float: left;
+}
+.user-info .char_list {
+    width: 300px;
+    display: block;
+    margin: 10px;
+    float: left;
+}
+
+
+/*User menu*/
+aside .shopWrap #shop {background-image: url('../img/buttons.png');background-repeat: no-repeat;}
+aside .shopWrap #shop{display: inline-block;vertical-align: middle;}
+aside .shopWrap{height:100px;position:relative;margin: 140px auto 0px;}
+aside .shopWrap #shop{width:360px;height:100px;background-position:0 -347px;margin-left:-10px}
+aside .shopWrap #shop:hover,aside .shopWrap #shop.play-hover{background-position:0 -447px}
+aside .shopWrap #shop embed{position:relative;top:9px;left:1px}
+#rightBox .loginBefore .menu a {
+    font-size: 14px;
+    font-size: 18px;
+    color: #C39C53;
+    display: block;
+    margin: 10px;
+}
+#rightBox .loginBefore .menu a:hover {
+    width: 290px;
+    background-color: rgba(255, 171, 0, 0.32);
+}
+/*Shop*/
+#user_shop {
+	left: -50px;
+	position: relative;
+}
+#user_shop  .popup-close{
+	left: -10px;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	top: -15px;
+}
+.floatingchars{
+font-size: 15px;
+text-shadow: 0px 4px 3px #000;
+font-family: "Minion Pro";
+/*margin: 20px 30px 10px;*/
+float: right;
+}

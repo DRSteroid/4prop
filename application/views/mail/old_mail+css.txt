@@ -1,0 +1,61 @@
+<?/*
+Ebbe még csak css bõl olvassa a megjelnést
+*/?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta property="og:title" content="YiroMail" />
+	<link href="<?=$_SERVER["SERVER_NAME"]?>/design/css/email.css" rel="stylesheet"> 
+</head>
+<body>
+	<div class="preheader">
+		<p class="webversion">Ha a levél nem jól jelenik meg, <a href="#link" target="_blank"><u>kattints ide</u></a>.</p>
+		<div class="line"></div>
+	</div>
+	<div class="header">
+		<img src="http://smail.yirogames.com/old4s/img/logo_sajt.png" alt="" width="325" height="90" />
+	</div>
+	<div class="centered">                
+		<h1>Üdvözlünk, <?=$name?>!</h1>
+		<p>
+			Kérjük, kattints a lenti linkre, hogy egy új jelszót tudj megadni: <br><br>
+			
+			http://<?=$_SERVER["SERVER_NAME"]?>/main/passwordlost/<?=$name?>/<?=$hash?><br /><br />
+			
+			Üdvözlettel,  <br />
+			A <?=$this->config->item('page_name')?> csapata<br />
+			<a href="http://<?=$_SERVER["SERVER_NAME"]?>"><?=$_SERVER["SERVER_NAME"]?></a>
+		</p>
+<div class="line"></div>
+		<div class="column">
+			<img src="http://smail.yirogames.com/4story/img/screen1.jpg" alt="" width="170" height="150" />
+			<h2>Gyönyörû világ</h2>
+		</div>
+		<div class="column">
+			<img src="http://smail.yirogames.com/4story/img/screen2.jpg" alt="" width="170" height="150" />
+			<h2>Gigantikus harcok</h2>
+		</div>
+		<div class="column">
+			<img src="http://smail.yirogames.com/4story/img/screen3.jpg" alt="" width="170" height="150" />
+			<h2>Számtalan kihívás</h2>
+		</div>
+	</div>	
+	<div class="footer">  		
+		<div class="padded">  	
+			YiroGames<br />
+			info@yirogames.com<br />
+			support.yirogames.com<br />
+			www.yirogames.com		
+		</div>	
+		<div class="subscription">
+			Ezt az e-mailt azért kaptad, mert regisztráltál a "<?=$this->config->item('page_name')?>" játékba a következõ e-mail címmel: <?=$email?>.<br />
+			<a href="http://smail.yirogames.com/Unsubscribe/">
+			<span class="block"><unsubscribe style="font-weight:bold;text-decoration:none;">Leiratkozás</unsubscribe></span></a>
+		</div>
+	</div>		
+</body></html>

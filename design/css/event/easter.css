@@ -1,0 +1,29 @@
+#event_header{
+	background: url("../../img/event/easter/header.png") repeat scroll -62px center;
+	height: 450px;
+	width: 500px;
+	position: absolute;
+left: 0px;
+top: 20px;
+}
+.newsList .event{
+	background: url("../../img/event/easter/box_bg.png") repeat scroll -62px center;
+	height: 230px;
+	width: 400px;
+	margin-top: -200px;
+	float: right;
+}
+#rightBox .event{
+	background: url("../../img/event/easter/right_box.png");
+	height: 100px;
+	width: 100px;
+	float: right;
+	margin-top: -80px;
+	margin-left: 220px;
+	position: absolute;
+}
+footer .event{
+	background: url("../../img/event/easter/footer.png") repeat scroll -62px center;
+	height: 790px;
+	margin-top: -800px;
+}
